@@ -10,7 +10,6 @@ import { SharedModule } from '../shared/shared.module';
 import { CountryTableComponent } from './components/country-table/country-table.component';
 
 
-
 @NgModule({
   declarations: [
     ByCapitalPageComponent,
@@ -22,7 +21,7 @@ import { CountryTableComponent } from './components/country-table/country-table.
   imports: [
     CommonModule,
     CountriesRoutingModule,
-    SharedModule
+    SharedModule,
   ]
 })
 export class CountriesModule { }
